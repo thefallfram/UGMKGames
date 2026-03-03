@@ -1,0 +1,80 @@
+:root {
+    --width: 1920;
+    --height: 1080;
+}
+
+body {
+    font-size: 0px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.headhead {
+    width: 25%;
+    display: inline-block;
+    background-color: rgb(255, 81, 0);
+    text-align: center;
+    font-size: calc(var(--width) * 0.0117);
+    color: aliceblue;
+    padding-top: calc(var(--width) * 0.0078125);
+    padding-bottom: calc(var(--width) * 0.0078125);
+    transition: all 0.3s;
+}
+
+.headhead:hover {
+    background-color: rgb(255, 38, 0);
+}
+
+.headhead:active {
+    background-color: rgb(196, 62, 0);
+}
+
+.playground {
+    height: calc(var(--width) * 0.125);
+    width: 40%;
+    display: inline-block;
+    background-color: rgb(255, 81, 0);
+    color: aliceblue;
+    font-size: calc(var(--width) * 0.0234375);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: calc(var(--width) * 0.02734375);
+    margin-bottom: calc(var(--width) * 0.03125);
+    text-align: center;
+    border-radius: calc(var(--width) * 0.01953125);
+    transition: all 0.3s;
+}
+
+.playground:hover {
+    background-color: rgb(255, 38, 0);
+}
+
+.playground:active {
+    background-color: rgb(196, 62, 0);
+}
+
+.posthead {
+    width: 100%;
+    font-size: calc(var(--width) * 0.03125);
+    font-style: italic;
+    text-align: center;
+    color: rgb(255, 81, 0);
+    margin-top: calc(var(--width) * 0.03125);
+}
+
+video {
+    width: 95%;
+    border-radius: calc(var(--width) * 0.0078125);
+}
+
+.videodiv {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: calc(var(--width) * 0.03125);
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(255, 81, 0);
+    border-radius: calc(var(--width) * 0.029296875);
+}
