@@ -47,8 +47,8 @@ body {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    width: calc(vw * 0.8);
-    height: calc(vw * 0.8);
+    width: 80vw;
+    height: 80vw;
     background-color: rgb(255, 81, 0);
     color: aliceblue;
     font-size: calc(var(--font) * 1.5);
@@ -69,8 +69,8 @@ body {
 }
 
 .sluch {
-    height: calc(var(--width) * 0.8);
-    width: calc(var(--width) * 0.8)
+    width: 80vw;
+    height: 80vw;
 }
 
 .question {
