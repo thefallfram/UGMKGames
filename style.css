@@ -52,7 +52,7 @@ body {
     background-color: rgb(255, 81, 0);
     color: aliceblue;
     font-size: calc(var(--font) * 1.5);
-    margin-left: calc(var(--width) * 0.05);
+    margin-left: 10vw;
     margin-right: 10vw;
     margin-top: calc(var(--height) * 0.02734375);
     margin-bottom: calc(var(--height) * 0.03125);
