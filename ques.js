@@ -8,24 +8,24 @@ const modal = document.getElementById('modal')
 const modal_content = document.getElementById('modal_content')
 const button1 = document.getElementById('button1')
 const textmodal = document.getElementById('textmodal')
+const q1 = ['ques1.html', 'ques5.html', 'ques9.html']
+const q2 = ['ques2.html', 'ques6.html', 'ques10.html']
+const q3 = ['ques3.html', 'ques7.html']
+const q4 = ['ques4.html', 'ques8.html']
 let right = 0
 let choice = 0
 let NOanswer = true
 
-if (htmlname == 'ques1.html') {
-    console.log('ok')
+if (q1.includes(htmlname)) {
     right = 1
 }
-if (htmlname == 'ques2.html') {
-    console.log('ok')
+if (q2.includes(htmlname)) {
     right = 2
 }
-if (htmlname == 'ques3.html') {
-    console.log('ok')
+if (q3.includes(htmlname)) {
     right = 3
 }
-if (htmlname == 'ques4.html') {
-    console.log('ok')
+if (q4.includes(htmlname)) {
     right = 4
 }
 
