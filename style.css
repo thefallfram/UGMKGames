@@ -213,3 +213,22 @@ p {
     padding-right: 10%;
     border-radius: calc(var(--width) * 0.05)
 }
+
+.justext {
+    width: 80vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: calc(var(--width) * 0.03125);
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(255, 81, 0);
+    border-radius: calc(var(--width) * 0.03);
+    font-size: var(--font);
+    color: aliceblue;
+}
+
+.mainpng {
+    width: 90vw;
+    margin-top: calc(var(--width) * 0.05);
+    margin-left: 5vw;
+}
