@@ -234,3 +234,36 @@ p {
     margin-top: calc(var(--width) * 0.05);
     margin-left: 5vw;
 }
+
+.audiodiv {
+    position: relative;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    height: 15vw;
+    background-color: rgb(255, 81, 0);
+    padding: 0.75vw;
+    border-radius: 3.4vw;
+    align-items: center;
+}
+
+.audio {
+    display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 3vw;
+    margin-bottom: 0.75vw;
+}
+
+.textaudio {
+    position: absolute;
+    width: 73.5vw;
+    height: 15vw;
+    color: aliceblue;
+    font-size: calc(var(--font) * 2);
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0.75vw;
+    padding-top: 3.5vw;
+}
