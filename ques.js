@@ -7,7 +7,7 @@ htmlname = window.location.pathname.split('/').pop()
 const modal = document.getElementById('modal')
 const modal_content = document.getElementById('modal_content')
 const button1 = document.getElementById('button1')
-const textmodal = document.getElementById('textmodal')
+const pngmodal = document.getElementById('quespng')
 const q1 = ['ques1.html', 'ques5.html', 'ques9.html']
 const q2 = ['ques2.html', 'ques6.html', 'ques10.html']
 const q3 = ['ques3.html', 'ques7.html']
@@ -101,11 +101,9 @@ confirm.addEventListener('click', function () {
         modal_content.style.backgroundColor = 'rgba(255, 81, 0, 1.0)'
         button1.style.backgroundColor = 'rgba(150, 47, 0, 1.0)'
         button1.style.pointerEvents = 'all'
-        if (choice == right) {
-            textmodal.textContent = "Молодец, это правильный ответ!"
-        }
-        else {
-            textmodal.textContent = 'Ой! Ответ неправильный... Посмотри видео еще раз!'
+        pngmodal.style.visibility = 'visible'
+        if (choice != right) {
+            pngmodal.src = '../sasha.png'
         }
     }
 })
@@ -116,4 +114,5 @@ button1.addEventListener('click', function () {
     modal_content.style.backgroundColor = 'rgba(255, 81, 0, 0.0)'
     button1.style.backgroundColor = 'rgba(150, 47, 0, 0.0)'
     button1.style.pointerEvents = 'none'
+    pngmodal.style.visibility = 'hidden'
 })

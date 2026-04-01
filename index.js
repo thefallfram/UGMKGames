@@ -15,16 +15,16 @@ if (listnum.includes(htmlname)) {
 }
 
 nav1.addEventListener('click', function () {
-    window.location.href = 'https://thefallfram.github.io/UGMKGames/index.html'
+    window.location.href = '../index.html'
 })
 nav2.addEventListener('click', function () {
-    window.location.href = 'https://thefallfram.github.io/UGMKGames/about.html'
+    window.location.href = '../about.html'
 })
 nav3.addEventListener('click', function () {
-    window.location.href = 'https://thefallfram.github.io/UGMKGames/play.html'
+    window.location.href = '../play.html'
 })
 nav4.addEventListener('click', function () {
-    window.location.href = 'https://thefallfram.github.io/UGMKGames/videogame.html'
+    window.location.href = '../videogame.html'
 })
 
 document.documentElement.style.setProperty('--width', width + 'px')
