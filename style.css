@@ -157,24 +157,23 @@ iframe {
     margin-top: 20vh;
     margin-left: 5vw;
     background-color: rgba(255, 81, 0, 0.0);
-    border-radius: calc(var(--width) * 0.05);
+    border-radius: 5vw;
     text-align: center;
     font-size: var(--font);
     pointer-events: none;
     padding-top: 3vh;
-    padding-bottom: 3vh;
 }
 
 .button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(var(--width) * 0.56);
-    height: calc(var(--height) * 0.1);
-    margin-top: calc(var(--height) * 0.07);
-    margin-left: calc(var(--width) * 0.04);
-    margin-right: calc(var(--width) * 0.04);
-    margin-top: calc(var(--height) * 0.07);
+    width: 56vw;
+    height: 10vh;
+    margin-top: 7vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 7vh;
     background-color: rgba(150, 47, 0, 0.0);
     border-radius: calc(var(--width) * 0.01953125);
     pointer-events: none;
