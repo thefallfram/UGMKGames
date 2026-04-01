@@ -162,6 +162,7 @@ iframe {
     font-size: var(--font);
     pointer-events: none;
     padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 .button {
